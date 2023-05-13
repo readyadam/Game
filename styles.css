@@ -1,4 +1,4 @@
-// Made by ChatGPT - GPT-4
+// Made by readyadam
 
 const canvas = document.getElementById("game-board");
 const context = canvas.getContext("2d");
