@@ -158,19 +158,4 @@ document.addEventListener("keydown", (e) => {
     }
   });
 
-  // A localStorage-ban tároljuk a számláló értékét
-let count = localStorage.getItem('playerCount') || 0;
 
-// A számláló növelése, ha valaki játszik a játékkal
-function incrementCount() {
-  count++;
-  localStorage.setItem('playerCount', count);
-}
-
-// A számláló megjelenítése a felhasználóknak
-function showCount() {
-  let countElement = document.getElementById('player-count');
-  countElement.innerHTML = count;
-}
-
-// Az oldal betöltésekor beállítjuk a számláló értékét
